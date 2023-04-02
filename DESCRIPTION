@@ -1,4 +1,4 @@
-Package: golem.mtg
+Package: mtg
 Title: Magic: The Gathering Set Completer
 Version: 0.0.0.9000
 Authors@R: person('Stacy', 'Read', email = 'stacy.read.007@gmail.com', role = c('cre', 'aut'))
@@ -11,3 +11,5 @@ Imports:
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
+URL: https://github.com/oroborous/rshiny-golem-mtg
+BugReports: https://github.com/oroborous/rshiny-golem-mtg/issues

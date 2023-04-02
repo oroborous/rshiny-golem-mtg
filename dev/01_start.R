@@ -19,13 +19,13 @@
 ## to change the name in the app_sys() function in app_config.R /!\
 ##
 golem::fill_desc(
-  pkg_name = "golem.mtg", # The Name of the package containing the App
+  pkg_name = "mtg", # The Name of the package containing the App
   pkg_title = "Magic: The Gathering Set Completer", # The Title of the package containing the App
   pkg_description = "Visualize what you need to complete a set!", # The Description of the package containing the App
   author_first_name = "Stacy", # Your First Name
   author_last_name = "Read", # Your Last Name
   author_email = "stacy.read.007@gmail.com", # Your Email
-  repo_url = NULL, # The URL of the GitHub Repo (optional),
+  repo_url = "https://github.com/oroborous/rshiny-golem-mtg", # The URL of the GitHub Repo (optional),
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
 )
 
