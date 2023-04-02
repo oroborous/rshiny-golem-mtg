@@ -10,11 +10,10 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("golem.mtg")
+      h1("Magic: The Gathering Set Completer"),
+      mod_01_user_data_ui("01_user_data_1")
     )
   )
-
-  mod_01_user_data_ui("01_user_data_1")
 }
 
 #' Add external Resources to the Application
@@ -35,7 +34,7 @@ golem_add_external_resources <- function() {
     favicon(),
     bundle_resources(
       path = app_sys("app/www"),
-      app_title = "golem.mtg"
+      app_title = "mtg"
     )
     # Add here other external resources
     # for example, you can add shinyalert::useShinyalert()
