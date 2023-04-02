@@ -13,6 +13,8 @@ app_ui <- function(request) {
       h1("golem.mtg")
     )
   )
+
+  mod_01_user_data_ui("01_user_data_1")
 }
 
 #' Add external Resources to the Application
